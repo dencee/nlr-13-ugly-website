@@ -29,11 +29,11 @@ let sketch = function (p) {
     }
 
     p.draw = function draw() {
-        p.background(0);
+        p.background(128, 128, 128, 50);
         p.fill(255);
         p.stroke(255);
-        p.textSize(36);
-        p.text("ORANGE 🍊🐻", 100, 100);
+        p.textSize(92);
+        p.text("ORANGE 🍊🐻", 200, 100);
 
         addOranges();
         addBears();
@@ -59,12 +59,12 @@ let sketch = function (p) {
 
     function drawBearsAndOranges(){
         for(const eachBear of bears){
-            eachBear.y += p.random(2,20);
+            eachBear.y += p.random(1,10);
             p.text('🐻', eachBear.x, eachBear.y);
         }
 
         for(const eachOrange of oranges){
-            eachOrange.y += p.random(2,20);
+            eachOrange.y += p.random(1,20);
             p.text('🍊', eachOrange.x, eachOrange.y);
         }
     }
