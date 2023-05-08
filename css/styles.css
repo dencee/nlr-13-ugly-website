@@ -17,7 +17,9 @@ span {
 body {
     background-color: yellow;
     background-image: url('../bear-in-the-big-blue-house-ss1.jpg');
-    background-repeat: repeat-y;
+    background-repeat: space;
     background-attachment: scroll;
     background-size: 20%;
+
+    width: 4000px;
 }
