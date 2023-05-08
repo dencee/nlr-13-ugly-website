@@ -1,0 +1,23 @@
+* {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 55px;
+}
+
+span {
+    color: orange;
+}
+
+#my-link:hover{
+    color:plum;
+}
+
+body {
+    background-color: yellow;
+    background-image: url('../bear-in-the-big-blue-house-ss1.jpg');
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-size: 20%;
+}
